@@ -1,0 +1,452 @@
+body {
+  text-align: center;
+  color: grey;
+  height: 100%;
+  margin-top: 0;
+}
+
+.form-control {
+  border-radius: 0%;
+}
+
+
+
+p {
+  text-align: justify;
+}
+
+main, .container-fluid {
+  opacity: 1;
+
+}
+
+main .container-fluid {
+  background-color: white;
+}
+
+
+
+#ourStory, #OurServices, #testimonials, #quote, #testimonials {
+    border-top: 100px solid transparent;
+    margin-top: -100px;
+    -webkit-background-clip: padding-box;
+    -moz-background-clip: padding;
+    background-clip: padding-box;
+}
+
+
+
+
+/* navbar */
+
+nav {
+  padding: 0;
+  margin-bottom: 0;
+  height: 100px;
+}
+
+.navbar {
+  font-size:1.2rem; */
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  height: 100px
+}
+
+.navbar-toggler {
+    padding: .25rem .75rem;
+    font-size: 1.25rem;
+    line-height: 1;
+    background-color: transparent;
+    border: none;
+    /* border-radius: .25rem; */
+}
+
+/* .navbar-expand-md{
+  background-color: #f0e2a8;
+  color: grey;
+} */
+
+.navbar-dark .navbar-nav .nav-link {
+  color: white;
+  opacity: 1;
+}
+
+.navbar-dark .navbar-nav .active>.nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show>.nav-link {
+    color: #fff;
+    border-bottom: 1px solid white;
+}
+
+.nav-link:hover {
+  border-bottom: 1px solid rgba(255,255,255,0.5);
+}
+
+.navbar::after {
+  height: 100px;
+  visibility: hidden;
+}
+
+
+/* Text */
+a {
+  color: black;
+}
+
+a:hover {
+  color: grey;
+  text-decoration: none;
+}
+
+h2 {
+  padding-top: 30px;
+}
+
+
+h2, h3, h4 {
+  color: black;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: lighter;
+}
+
+/* kenburns effect*/
+
+.carousel-item img {
+  animation: kenburns 20s infinite;
+  overflow: hidden;
+}
+
+@keyframes kenburns {
+  0% {
+    opacity: 0;
+  }
+  5% {
+    opacity: 1;
+  }
+  95% {
+    transform: scale3d(1.2,1.2, 1.2) translate3d(50px, -50px, 0px);
+    animation-timing-function: 20s ease-in;
+    animation-duration: 500s
+    opacity: 1;
+  }
+  100% {
+    transform: scale3d(2,2,2) translate3d(70px,-70px, 0px);
+    opacity: 1;
+  }
+}
+
+
+
+
+.containerHeader {
+  position: relative;
+  z-index: -1;
+  height: 100vh;
+}
+
+
+
+.colHeader, .containerHeader{
+  padding: 0;
+
+
+}
+
+.row .rowHeader {
+  padding: 0;
+}
+
+
+
+.HeaderLogo {
+position: fixed;
+width: 40%;
+left: 50%;
+margin-left: -20%;
+}
+
+.headerLogoWrapper {
+  position: absolute;
+  z-index: 1;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  margin-top: 10%;
+}
+
+.carousel-indicators li {
+  border-radius: 0;
+}
+
+.carousel {
+  height: 100%;
+  overflow: hidden;
+  position: fixed;
+
+}
+
+.carousel-item {
+  /* background-color: black; */
+  opacity: .9;
+  width: 100vw;
+  height: 100%;
+  overflow: hidden;
+
+}
+
+.carousel-item .active {
+  /* background-color: black;
+  opacity: .9; */
+  width: 100vw;
+  height: 100%;
+  /* max-height: 100vh; */
+  overflow: hidden;
+  /* background-clip: border-box; */
+
+}
+
+main {
+  position: relative;
+  /* padding-top: 100vh; */
+  z-index:3;
+}
+
+main::before {
+
+  height: 100vh;
+  background: transparent;
+
+}
+
+.OurServices .row {
+border-bottom: 30px solid white;
+}
+
+
+.zoom {
+  transition: transform .2s;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size:100% 100%;
+  height: 400px;
+  width: 400px;
+  margin-bottom: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.zoom:hover {
+  transform: scale(1.05);
+  opacity: 0.7;
+}
+
+.zoom h2 {
+  color: white;
+}
+
+.servicesImgContainer1 {
+  background-image: url("media/homestyling.jpg");
+}
+
+.servicesImgContainer2 {
+  background-image: url("media/finishings.jpg");
+}
+
+.servicesImgContainer3 {
+background-image: url("media/bathroom.jpg");
+}
+
+.overlay {
+  position: absolute;
+  /* top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0; */
+  height: 95%;
+  width: 95%;
+  opacity: 0.6;
+  transition: .5s ease;
+  background-color: #f0e2a8;
+}
+
+.servicesImgContainer:hover .overlay {
+  opacity: 1
+}
+
+main .row {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+#Cristian {
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+filter: grayscale(100%);
+}
+
+#Michel, #Cristian {
+    border-radius: 50%;
+    height: 20vh;
+    margin:10px;
+}
+
+.block {
+  min-height: 70vh;
+}
+
+/* paralax  */
+
+
+
+#paralax1 {
+  /* background-image: url("media/livingroomteal.jpg"); */
+  background-image: url("media/paralax1.jpg");
+min-height: 400px;
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+#paralax2 {
+  background-image: url(media/paralax3a.jpg);
+  min-height: 400px;
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#paralax3 {
+  background-image: url(media/actualparalax3.jpg);
+  min-height: 400px;
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#paralax4 {
+  background-image: url(media/paralax4.jpg);
+  min-height: 400px;
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+/* Get a quote */
+
+#quoteButton {
+  border-radius: 0px;
+  border: 1px solid black!important;
+  color: black;
+  padding-right: 30px;
+  padding-left: 30px;
+}
+
+
+
+#quoteButton:hover {
+    background-color:#f0e2a8;
+    border: 1px solid white!important;
+}
+
+span#contact {
+    /* text-align: left; */
+    display: flex;
+    align-items: flex-start;
+}
+
+/* testimonials */
+
+#stars {
+  color: yellow;
+}
+
+.row .testimonialsRow {
+  padding-top: 0px;
+}
+.badgeCardStack {
+  display: inline;
+}
+
+#houzzBadges {
+  padding-top: 5px;
+}
+
+/* footer */
+
+.partnerLogo {
+  height: 40px;
+  width: auto;
+  margin: 10px;
+}
+
+
+footer  {
+  height: 300px;
+  background-color: #BEBEBE;
+  color: white;
+  padding-top: 40px;
+  bottom: 0;
+  padding-bottom: 0;
+  margin: 0;
+}
+
+
+.footerRow {
+width: 100%;
+
+}
+footer h3 {
+  color: white;
+  text-align: center;
+}
+
+ footer p {
+   text-align: center;
+ }
+
+footer .row {
+  padding: 0;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+footer .container-fluid {
+  height: 100%;
+}
+
+.fa-1x {
+  margin-right: 5px;
+}
+
+span .fa-3x {
+  margin: 5px;
+
+}
+#Copyright {
+  background-color: #3D4849;
+  color: white;
+  text-align: center;
+  height: 30px;
+}
+
+#Copyright p {
+  text-align: center;
+  margin-bottom: 0;
+}
+
+
+
+
+
+#icons {
+  color: white;
+}
+.fab {
+  /* padding: 10px; */
+}
