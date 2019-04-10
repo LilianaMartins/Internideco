@@ -4,9 +4,9 @@
 
 
 if(isset($_POST['submit'])) {
-    
-  
-    $firstname = $_POST['First_Name'];  
+
+
+    $firstname = $_POST['First_Name'];
     $lastname = $_POST['Last_Name'];
     $email = $_POST['email'];
     $number = $_POST['number'];
@@ -15,8 +15,8 @@ if(isset($_POST['submit'])) {
     $call_contact = $_POST['call_contact'];
     $sms_contact = $_POST['sms_contact'];
     $file = $_POST['file'];
-    
-        
+
+
     $connection = mysqli_connect('localhost', 'root', '', 'Internideco');
 
     $firstname = mysqli_real_escape_string($connection, $firstname);
@@ -25,7 +25,7 @@ if(isset($_POST['submit'])) {
     $number = mysqli_real_escape_string($connection, $number);
     $message = mysqli_real_escape_string($connection, $message);
 
-      
+
    /* if($connection) {
             echo "We are connected";
         } else {
@@ -37,8 +37,8 @@ if(isset($_POST['submit'])) {
     $query .= "VALUES ('$firstname', '$lastname', '$email', '$number', '$message', '$file', $email_contact, $call_contact, $sms_contact) ";
 
     mysqli_query($connection, $query);
-    
-    
+
+
     }
 
 
@@ -68,7 +68,7 @@ if(isset($_POST['submit'])) {
   <!-- start navbar -->
   <nav class="navbar navbar-expand-md fixed-top navbar-dark">
     <a class="navbar-brand d-md-none" href="#">
-      <img src="media\navbarlogo.png" width="auto" height="50" class="d-inline-block align-top" alt=""></a>
+      <img src="media/Navbarlogo.png" width="auto" height="50" class="d-inline-block align-top" alt=""></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -132,7 +132,7 @@ if(isset($_POST['submit'])) {
       </div>
     </div>
   </div>
- 
+
 
   <!-- end of carousel for large screens -->
 
@@ -311,7 +311,7 @@ if(isset($_POST['submit'])) {
             <h3>Houzz Award</h3>
             <table>
               <tr>
-                <td><img class="badgePic badge_47_8" src="media/houzzbadge.png" /></td>
+                <td><img class="badgePic badge_47_8" src="media/houzzbadge.PNG" /></td>
                 <td>
                   <p>Best of Houzz 2019 - Client Satisfaction
                     This professional was rated at the highest level for client satisfaction by the Houzz community.
