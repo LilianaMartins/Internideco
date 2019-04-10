@@ -114,6 +114,14 @@ h2, h3, h4 {
   overflow: hidden;
 }
 
+
+/* mobile */
+
+
+.carouselitem .active {
+  width: 100%;
+}
+
 @keyframes kenburns {
   0% {
     opacity: 0;
