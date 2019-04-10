@@ -379,6 +379,11 @@ span#contact {
 
 /* footer */
 
+.partnerList li {
+  list-style: none;
+  display: inline-block;
+}
+
 .partnerLogo {
   height: 40px;
   width: auto;
@@ -386,9 +391,11 @@ span#contact {
 }
 
 
+
+
 footer  {
-  height: 300px;
-  background-color: #BEBEBE;
+  height: 30%;
+  background-color: grey;
   color: white;
   padding-top: 40px;
   bottom: 0;
@@ -398,7 +405,8 @@ footer  {
 
 
 .footerRow {
-width: 100%;
+width: 50%;
+text-align: center;
 
 }
 footer h3 {
@@ -413,15 +421,19 @@ footer h3 {
 footer .row {
   padding: 0;
   margin-bottom: 20px;
-  text-align: center;
+    text-align: center;
 }
 
 footer .container-fluid {
   height: 100%;
 }
 
+.callIcons p {
+  text-align: left;
+}
+
 .fa-1x {
-  margin-right: 5px;
+  margin-right: 10px;
 }
 
 span .fa-3x {

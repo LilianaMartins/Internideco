@@ -420,9 +420,9 @@ if(isset($_POST['submit'])) {
 
   <!-- Start of footer  -->
   <footer id="footer">
-    <div class="container-fluid d-flex flex-column justify-content-center">
-      <div class="row">
-        <div class="col-md-12">
+    <div class="container-fluid d-flex text-align-center justify-content-center">
+      <div class="row footerRow">
+        <div class="col">
           <span id="icons">
             <h3>Follow Us</h3>
             <i class="fab fa-facebook fa-2x"></i>
@@ -431,17 +431,27 @@ if(isset($_POST['submit'])) {
             <i class="fab fa-pinterest-square fa-2x"></i>
           </span>
         </div>
-      </div>
-      <div class="row">
-        <div class="col-md-12">
+
+        <div class="col">
           <h3>Contact Us</h3>
           <p><i class="fas fa-phone fa-1x"></i>0788888888</p>
           <p><i class="fas fa-envelope fa-1x"></i>
             internideco@gmail.com</p>
         </div>
       </div>
+
     </div>
 
+    <div class="container-fluid">
+
+      <ul class="partnerList">
+        <li><img class="partnerLogo" src="media\partner logos\georgio_graesan.jpg" alt=""></li>
+        <li><img class="partnerLogo" src="media\partner logos\logo-metropolis.png" alt=""></li>
+        <li><img src="media\partner logos\logo-oikos.jpg" alt=""></li>
+        <li><img class="partnerLogo" src="media\partner logos\resine decora.png" alt=""></li>
+        <li><img height="40px" width="auto" src="media\partner logos\Logo-Nord-Resine-negativo.png" alt=""></li>
+      </ul>
+    </div>
   </footer>
 
   <div id="Copyright" class="footer">
