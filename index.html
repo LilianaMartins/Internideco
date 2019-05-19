@@ -9,7 +9,9 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" href="style.css">
   <!-- fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400" rel="stylesheet">
+  <!-- <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Roboto:300,700" rel="stylesheet"> -->
+  <link href="https://fonts.googleapis.com/css?family=Lora:400,700|Montserrat:300" rel="stylesheet">
 </head>
 
 <body data-spy="scroll" data-target=".navbar" data-offset="50">
@@ -24,7 +26,7 @@
     <div class="justify-content-md-center collapse navbar-collapse" id="navbarNavAltMarkup">
       <div class="navbar-nav">
         <a class="nav-item nav-link active" href="#PageTop">Home<span class="sr-only">(current)</span></a>
-        <a class="nav-item nav-link" href="#ourStory">Meet the Team</a>
+        <a class="nav-item nav-link" href="#ourStory">Our Story</a>
         <a class="nav-item nav-link" href="#OurServices">Our Services</a>
         <a class="nav-item nav-link" href="#testimonials">Testimonials</a>
         <a class="nav-item nav-link" href="#quote">Get a quote</a>
@@ -135,26 +137,30 @@
       <div class="container flex-wrap">
         <h2>Our Story</h2>
         <div class="row" id="ourStoryText">
-          <div class="col-lg-6 d-flex align-items-center">
-            <p>Our project started over 10 years ago in Italy. Since then our passion for design has grown and with it the size of our projetcs. The true essence of our work is to free imagination in order to create unique spaces.
-              With more than two decades combined expertise in the industry led us to develop and improve our techniques, as well as our client satisfaction. <br>
+          <div class="d-flex align-items-center">
+            <p>Our project started over 15 years ago in Italy. Since then our passion for interior design has grown and with it the size of our projetcs. The true essence of our work is to free imagination in order to create unique spaces.
+
+
+              Cristian leads our London operation and works to expand the utilisation of exquisite materials within the London design scene. However, our projects can take us anywhere, from Ancona to Zurich - We are up for any challenge.
+
+
+
+          More than two decades combined expertise in the industry have helped us develop new techniques and improve our skills, as well as our understanding of what our clients desire -they're at the heart of everything we do. <br>
               <strong>Passion, Precision, Care, Tidiness, Curiosity -</strong> these are the key words which guide our work.
               We provide a one-stop-shop solution from the design stage using <strong>professional 3D-rendering</strong> to the actual project execution and delivery. We want you to be part of every step. We love all our projects, from the smallest
               to the largest. We offer services inv
-              <strong>Painting and Decorating, High-Standard Finishings, Carpentry, Custom Walls and Resisns.</strong>
+              <strong>Painting and Decorating, High-Standard Finishings such as Venezian Plastering, Carpentry, Custom Walls and Resisns.</strong>
               However, as every great artisan, we have a speciality:<br>
               <strong>Home Restyling & Bespoke Finishings, as well as luxury bathrooms.</strong> - where we achieve our best performance due to the deep knowledge of every material and technique.</p>
           </div>
-          <div class="col-lg-3">
+          <!-- <div class="col-lg-3">
             <img id="Cristian" src="media\Cristian.jpg">
             <h4>Cristian Neacsu</h4>
-            <!-- <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper.</p> -->
           </div>
           <div class="col-lg-3">
             <img id="Michel" src="media\Michel.jpg">
             <h4>Michel D'Agostino</h4>
-            <!-- <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper.</p> -->
-          </div>
+          </div> -->
         </div>
       </div>
     </div>
@@ -167,37 +173,74 @@
         </div>
       </div>
     </div>
-
-    <div class="container-fluid justify-content-around OurServices flex-wrap" id="OurServices">
+<!-- services div first option -->
+    <!-- <div class="container-fluid justify-content-around OurServices flex-wrap" id="OurServices">
       <h2>Our Services</h2>
-      <!-- <p>We provide unique bespoke finishings and <br> are packed with ideas to make your dreams come true. <br> There are hover over below for more information.</p> -->
       <div class="row">
         <div class="col-lg-4">
           <div class="d-flex align-items-center justify-content-center zoom servicesImgContainer1 ">
             <a href="homerestyling.html">
-              <h2>Home Restyling</h2>
+              <h3>Home Restyling</h3>
             </a>
-
-
           </div>
         </div>
         <div class="col-lg-4">
-          <div class="  d-flex align-items-center justify-content-center zoom servicesImgContainer2">
+          <div class="d-flex align-items-center justify-content-center zoom servicesImgContainer2">
             <a href="luxuryfinishings.html">
-              <h2>Bespoke Luxury Finishings</h2>
+              <h3>Bespoke Luxury Finishings</h3>
             </a>
           </div>
         </div>
         <div class="col-lg-4">
           <div class="  d-flex align-items-center justify-content-center zoom  servicesImgContainer3">
             <a href="bathrooms.html">
-              <h2>Bathroom Restyling</h2>
+              <h3>Bathroom Restyling</h3>
             </a>
           </div>
         </div>
       </div>
     </div>
-    </div>
+    </div> -->
+
+<!-- second option -->
+<div class="container-fluid" id="OurServices">
+  <h2>Our Services</h2>
+
+<ul class="grid cs-style-3">
+	<li>
+		<figure>
+			<img src="media/homestyling.jpg" alt="img01">
+      <h3 id="centered-caption">Home Restyling </h3>
+			<figcaption>
+	<a href="homerestyling.html">Find out More <i class="fas fa-chevron-right"></i></a>
+			</figcaption>
+		</figure>
+	</li>
+	<li>
+		<figure>
+      <img src="media/finishings.jpg" alt="img01">
+      		<h3 id="centered-caption">Luxury Finishings</h3>
+			<figcaption>
+
+
+				<a href="luxuryfinishings.html">Find out More <i class="fas fa-chevron-right"></i></a>
+			</figcaption>
+		</figure>
+	</li>
+  <li>
+    <figure>
+      <img src="media/bathroom.jpg" alt="img01">
+        <h3 id="centered-caption">Bathroom Restyling</h3>
+      <figcaption>
+        <a href="bathrooms.html">Find out More <i class="fas fa-chevron-right"></i></a>
+      </figcaption>
+    </figure>
+  </li>
+</ul>
+</div>
+
+
+
 
     <!-- a paralax div -->
 
@@ -226,7 +269,7 @@
                   quite a perfectionist</p>
               </div>
               <div class="card-footer">
-                <small class="text-muted"><a href="https://www.houzz.co.uk/viewReview/1224863/Interni-Deco-review" class="card-link">View in houzz.co.uk</a></small>
+                <small class="text-muted"><a href="https://www.houzz.co.uk/viewReview/1224863/Interni-Deco-review" class="card-link">View on houzz.co.uk</a></small>
               </div>
             </div>
             <div class="card    text-left">
@@ -239,7 +282,7 @@
                   the highest standard.</p>
               </div>
               <div class="card-footer">
-                <small class="text-muted"><a href="https://www.houzz.co.uk/viewReview/1210553/Interni-Deco-review" class="card-link">View in houzz.co.uk</a></small>
+                <small class="text-muted"><a href="https://www.houzz.co.uk/viewReview/1210553/Interni-Deco-review" class="card-link">View on houzz.co.uk</a></small>
               </div>
             </div>
             <div class="card    text-left">
@@ -250,7 +293,7 @@
                   that it will be left clean when the work is complete. I thoroughly recommend Interni Deco from small jobs to larger decoration projects.</p>
               </div>
               <div class="card-footer">
-                <small class="text-muted"><a href="https://www.houzz.co.uk/viewReview/1224566/Interni-Deco-review" class="card-link">View in houzz.co.uk</a></small>
+                <small class="text-muted"><a href="https://www.houzz.co.uk/viewReview/1224566/Interni-Deco-review" class="card-link">View on houzz.co.uk</a></small>
               </div>
             </div>
           </div>
@@ -282,7 +325,7 @@
     <div class="container-fluid" id="paralax3">
     </div>
 
-    <!-- meet the team -->
+    <!-- Our Story -->
 
     <!-- how do you perfer to be contacted? -->
     <div class="container-fluid myForm" id="quote">
@@ -393,20 +436,25 @@
 
     </div>
 
-    <div class="container-fluid">
+    <div class="container-fluid d-none  d-md-block">
 
       <ul class="partnerList">
-        <li><img class="partnerLogo" src="media\partner logos\georgio_graesan.jpg" alt=""></li>
-        <li><img class="partnerLogo" src="media\partner logos\logo-metropolis.png" alt=""></li>
-        <li><img src="media\partner logos\logo-oikos.jpg" alt=""></li>
-        <li><img class="partnerLogo" src="media\partner logos\resine decora.png" alt=""></li>
-        <li><img height="40px" width="auto" src="media\partner logos\Logo-Nord-Resine-negativo.png" alt=""></li>
+        <li><img class="partnerLogo" src="media\partner logos\georgio_graesan_g.png" alt=""></li>
+        <li><img class="partnerLogo" src="media\partner logos\logo-metropolis_g.png" alt=""></li>
+        <li><img src="media\partner logos\logo-oikos_g.png" alt=""></li>
+        <!-- <li><img class="partnerLogo" src="media\partner logos\resine decora.png" alt=""></li> -->
+        <li><img height="40px" width="auto" src="media\partner logos\Logo-Nord-Resine_w.png" alt=""></li>
       </ul>
     </div>
   </footer>
 
   <div id="Copyright" class="footer">
     <p>Copyright InterniDeco 2016-2019</p>
+
+  </div>
+  <div class="backToTop">
+
+    <a href="javascript:" id="return-to-top"><i class="fas fa-chevron-up"></i></a>
 
   </div>
 

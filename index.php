@@ -37,13 +37,7 @@ if(isset($_POST['submit'])) {
     $query .= "VALUES ('$firstname', '$lastname', '$email', '$number', '$message', '$file', $email_contact, $call_contact, $sms_contact) ";
 
     mysqli_query($connection, $query);
-
-
     }
-
-
-
-
 
 ?>
 
