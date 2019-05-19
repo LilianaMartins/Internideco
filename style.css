@@ -379,7 +379,7 @@ background-image: url("media/bathroom.jpg");
     font-size: 15px;
 }
 
-@media screen and (max-width: 31.5em) {
+/* @media screen and (max-width: 31.5em) {
 	.grid {
 		padding: 10px 10px 100px 10px;
 	}
@@ -387,7 +387,7 @@ background-image: url("media/bathroom.jpg");
 		width: 100%;
 		min-width: 300px;
 	}
-}
+} */
 
 .cs-style-3 figure {
 	overflow: hidden;
