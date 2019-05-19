@@ -47,16 +47,33 @@ main .container-fluid {
 
 /* mobile navbar */
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 700px) {
+
+
+  nav {
+    width: 100vw;
+  }
+
+
   .nav-item {
     background-color: white;
+    color: black!important;
 
   }
 
 .nav-link .nav-link a {
     color: black!important;
   }
+
+
+  }
+
+  .nav-link:hover {
+    border-bottom: none;
+
 }
+
+/* end of media queries */
 
 
 
@@ -102,11 +119,11 @@ nav {
 
 .navbar-dark .navbar-nav .active>.nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show>.nav-link {
     color: #fff;
-    border-bottom: 1px solid white;
+    border-bottom: 1px solid #e6c900;
 }
 
 .nav-link:hover {
-  border-bottom: 1px solid rgba(255,255,255,0.5);
+  border-bottom: 1px solid rgba(230,201,0,0.5);
 }
 
 .navbar::after {
@@ -251,6 +268,27 @@ main::before {
   background: transparent;
 
 }
+
+#more {
+
+  display: none;
+
+}
+
+#readMore {
+  border-radius: 0px;
+  border: 1px solid #e6c900!important;
+  color: #e6c900;
+  padding-right: 30px;
+  padding-left: 30px;
+  box-shadow: none;
+  cursor: pointer;
+}
+
+
+
+
+
 
 .OurServices .row {
 border-bottom: 30px solid white;
@@ -513,6 +551,7 @@ min-height: 400px;
 #quoteButton:hover {
     background-color:#e6c900;
     border: 1px solid white!important;
+    color: white;
 }
 
 

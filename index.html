@@ -32,7 +32,7 @@
         <a class="nav-item nav-link" href="#quote">Get a quote</a>
 
         <a class="nav-item nav-link" href="#footer">Contact Us</a>
-        <li class="nav-item dropdown">
+        <!-- <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             Projects
           </a>
@@ -41,7 +41,7 @@
             <a class="dropdown-item" href="#">Coming Soon</a>
             <a class="dropdown-item" href="#">Coming Soon</a>
           </div>
-        </li>
+        </li> -->
       </div>
     </div>
   </nav>
@@ -139,20 +139,22 @@
         <div class="row" id="ourStoryText">
           <div class="d-flex align-items-center">
             <p>Our project started over 15 years ago in Italy. Since then our passion for interior design has grown and with it the size of our projetcs. The true essence of our work is to free imagination in order to create unique spaces.
-
-
               Cristian leads our London operation and works to expand the utilisation of exquisite materials within the London design scene. However, our projects can take us anywhere, from Ancona to Zurich - We are up for any challenge.
-
-
-
-          More than two decades combined expertise in the industry have helped us develop new techniques and improve our skills, as well as our understanding of what our clients desire -they're at the heart of everything we do. <br>
+              More than two decades combined expertise in the industry have helped us develop new techniques and improve our skills, as well as our understanding of what our clients desire -they're at the heart of everything we do. <br>
+              <span id="dots">...</span><span id="more">
               <strong>Passion, Precision, Care, Tidiness, Curiosity -</strong> these are the key words which guide our work.
               We provide a one-stop-shop solution from the design stage using <strong>professional 3D-rendering</strong> to the actual project execution and delivery. We want you to be part of every step. We love all our projects, from the smallest
               to the largest. We offer services inv
               <strong>Painting and Decorating, High-Standard Finishings such as Venezian Plastering, Carpentry, Custom Walls and Resisns.</strong>
               However, as every great artisan, we have a speciality:<br>
               <strong>Home Restyling & Bespoke Finishings, as well as luxury bathrooms.</strong> - where we achieve our best performance due to the deep knowledge of every material and technique.</p>
+
+
+
+
           </div>
+
+          <button onclick="hideText()" class="btn" id="readMore">Read more</button>
           <!-- <div class="col-lg-3">
             <img id="Cristian" src="media\Cristian.jpg">
             <h4>Cristian Neacsu</h4>
@@ -173,7 +175,7 @@
         </div>
       </div>
     </div>
-<!-- services div first option -->
+    <!-- services div first option -->
     <!-- <div class="container-fluid justify-content-around OurServices flex-wrap" id="OurServices">
       <h2>Our Services</h2>
       <div class="row">
@@ -202,42 +204,42 @@
     </div>
     </div> -->
 
-<!-- second option -->
-<div class="container-fluid" id="OurServices">
-  <h2>Our Services</h2>
+    <!-- second option -->
+    <div class="container-fluid" id="OurServices">
+      <h2>Our Services</h2>
 
-<ul class="grid cs-style-3">
-	<li>
-		<figure>
-			<img src="media/homestyling.jpg" alt="img01">
-      <h3 id="centered-caption">Home Restyling </h3>
-			<figcaption>
-	<a href="homerestyling.html">Find out More <i class="fas fa-chevron-right"></i></a>
-			</figcaption>
-		</figure>
-	</li>
-	<li>
-		<figure>
-      <img src="media/finishings.jpg" alt="img01">
-      		<h3 id="centered-caption">Luxury Finishings</h3>
-			<figcaption>
+      <ul class="grid cs-style-3">
+        <li>
+          <figure>
+            <img src="media/homestyling.jpg" alt="img01">
+            <h3 id="centered-caption">Home Restyling </h3>
+            <figcaption>
+              <a href="homerestyling.html">Find out More <i class="fas fa-chevron-right"></i></a>
+            </figcaption>
+          </figure>
+        </li>
+        <li>
+          <figure>
+            <img src="media/finishings.jpg" alt="img01">
+            <h3 id="centered-caption">Luxury Finishings</h3>
+            <figcaption>
 
 
-				<a href="luxuryfinishings.html">Find out More <i class="fas fa-chevron-right"></i></a>
-			</figcaption>
-		</figure>
-	</li>
-  <li>
-    <figure>
-      <img src="media/bathroom.jpg" alt="img01">
-        <h3 id="centered-caption">Bathroom Restyling</h3>
-      <figcaption>
-        <a href="bathrooms.html">Find out More <i class="fas fa-chevron-right"></i></a>
-      </figcaption>
-    </figure>
-  </li>
-</ul>
-</div>
+              <a href="luxuryfinishings.html">Find out More <i class="fas fa-chevron-right"></i></a>
+            </figcaption>
+          </figure>
+        </li>
+        <li>
+          <figure>
+            <img src="media/bathroom.jpg" alt="img01">
+            <h3 id="centered-caption">Bathroom Restyling</h3>
+            <figcaption>
+              <a href="bathrooms.html">Find out More <i class="fas fa-chevron-right"></i></a>
+            </figcaption>
+          </figure>
+        </li>
+      </ul>
+    </div>
 
 
 
@@ -394,9 +396,9 @@
             <div class="form-row">
               <div class="col-md-6 offset-md-3">
                 <div class="form-group">
-
+<!-- 
                   <p>Feel free to upload a picture of some inspiration you may have or of the room you'd like to re-design.</p>
-                  <input type="file" class="form-control-file" id="exampleFormControlFile1">
+                  <input type="file" class="form-control-file" id="exampleFormControlFile1"> -->
                 </div>
               </div>
             </div>
@@ -444,6 +446,7 @@
         <li><img src="media\partner logos\logo-oikos_g.png" alt=""></li>
         <!-- <li><img class="partnerLogo" src="media\partner logos\resine decora.png" alt=""></li> -->
         <li><img height="40px" width="auto" src="media\partner logos\Logo-Nord-Resine_w.png" alt=""></li>
+        <li><img height="40px" width="auto" src="media\partner logos\novacolor.png" alt=""></li>
       </ul>
     </div>
   </footer>
