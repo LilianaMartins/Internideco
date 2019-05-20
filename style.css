@@ -36,7 +36,7 @@ main .container-fluid {
 
 
 
-#ourStory, #testimonials, #quote, #testimonials {
+#ourStory, #OurServices, #testimonials, #quote, #testimonials {
     border-top: 100px solid transparent;
     margin-top: -100px;
     -webkit-background-clip: padding-box;
