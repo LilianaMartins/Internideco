@@ -353,6 +353,7 @@ background-image: url("media/bathroom.jpg");
 	margin: 0 auto;
 	list-style: none;
 	text-align: center;
+  overflow: hidden;
 }
 
 .grid li {
