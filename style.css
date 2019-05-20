@@ -36,7 +36,7 @@ main .container-fluid {
 
 
 
-#ourStory, #OurServices, #testimonials, #quote, #testimonials {
+#ourStory, #testimonials, #quote, #testimonials {
     border-top: 100px solid transparent;
     margin-top: -100px;
     -webkit-background-clip: padding-box;
@@ -45,12 +45,6 @@ main .container-fluid {
 }
 
 
-#OurServicesMobile img {
-
-max-width: 350px;
-
-
-}
 
 
 /* mobile navbar */
