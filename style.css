@@ -297,7 +297,7 @@ border-bottom: 30px solid white;
 }
 
 
-.zoom {
+/* .zoom {
   transition: transform .2s;
   background-position: center;
   background-repeat: no-repeat;
@@ -316,7 +316,7 @@ border-bottom: 30px solid white;
 
 .zoom h3 {
   color: white;
-}
+} */
 
 .servicesImgContainer1 {
   background-image: url("media/homestyling.jpg");
