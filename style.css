@@ -766,10 +766,9 @@ span .fa-3x {
 
 }
 
-.svg-inline--fa.fa-w-14 {
-    width: 1em;
-    margin-top: 15px;
-    font-size: 30px;
+.fa-chevron-up {
+  margin-top: 14px;
+  font-size: 30px;
 }
 
 
