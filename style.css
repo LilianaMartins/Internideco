@@ -297,8 +297,12 @@ border-bottom: 30px solid white;
 }
 
 
+.zoomContainer {
+  overflow: hidden;
+}
+
  .zoom {
-  transition: transform .2s;
+  /* transition: transform .2s; */
   background-position: center;
   background-repeat: no-repeat;
   background-size:100% 100%;
@@ -307,6 +311,7 @@ border-bottom: 30px solid white;
   margin-bottom: 15px;
   margin-left: auto;
   margin-right: auto;
+  overflow: hidden;
 }
 
 /*.zoom:hover {
@@ -320,14 +325,17 @@ border-bottom: 30px solid white;
 
 .servicesImgContainer1 {
   background-image: url("media/homestyling.jpg");
+  overflow: hidden;
 }
 
 .servicesImgContainer2 {
   background-image: url("media/finishings.jpg");
+  overflow: hidden;
 }
 
 .servicesImgContainer3 {
 background-image: url("media/bathroom.jpg");
+overflow: hidden;
 }
 
 
@@ -356,7 +364,7 @@ background-image: url("media/bathroom.jpg");
 	list-style: none;
 	text-align: center;
   overflow: hidden;
-}
+  }
 
 .grid li {
 	display: inline-block;
@@ -378,8 +386,15 @@ background-image: url("media/bathroom.jpg");
 	position: relative;
   }
 
+  .ourServicesRow .zoom {
 
-  .grid figcaption {
+    max-width: 100%;
+    /* display: block; */
+    position: relative;
+  }
+
+
+  .grid figcaption , .ourServicesRow figcaption{
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -389,7 +404,8 @@ background-image: url("media/bathroom.jpg");
 }
 
 
-.grid  h3 {
+
+.grid  h3 , .ourServicesRow h3 {
   text-align: center;
 	margin: 10px;
 	padding: 0;
@@ -401,7 +417,7 @@ background-image: url("media/bathroom.jpg");
   transform: translate(-50%, -50%);
 }
 
-.grid figcaption a {
+.grid figcaption a , .ourServicesRow figcaption a {
   font-family: 'Montserrat', sans-serif;
 
 	text-align: center;
@@ -434,15 +450,33 @@ background-image: url("media/bathroom.jpg");
 	overflow: hidden;
 }
 
+
+.zoomContainer {
+  overflow: hidden;
+}
+
 .cs-style-3 figure img {
 	transition: transform 0.4s;
 }
 
+/* version 2 */
+.ourServicesRow .zoom .zoomContainer {
+	transition: transform 0.4s;
+}
 
-.cs-style-3 figure:hover img,
-.cs-style-3 figure.cs-hover img {
+
+.cs-style-3 figure:hover img
+.cs-style-3 figure.cs-hover img{
 	transform: translateY(-50px);
   opacity: 0.7;
+}
+
+/* version 2 */
+
+.zoom:hover {
+	transform: translateY(-20px);
+  opacity: 0.7;
+  overflow: hidden;
 }
 
 .cs-style-3 figcaption {
@@ -455,12 +489,35 @@ background-image: url("media/bathroom.jpg");
 	transition: transform 0.4s, opacity 0.1s 0.3s;
 }
 
+/* version 2 */
+
+.ourServicesRow figcaption {
+	height: 100px;
+	width: 100%;
+	top: auto;
+	bottom: 0;
+	opacity: 0;
+	transform: translateY(100%);
+	transition: transform 0.4s, opacity 0.1s 0.3s;
+}
+
+
 .cs-style-3 figure:hover figcaption,
-.cs-style-3 figure.cs-hover figcaption {
+.cs-style-3 figure.cs-hover figcaption  {
 	opacity: 1;
 	transform: translateY(0px);
 	transition: transform 0.4s, opacity 0.1s;
 }
+
+/* version 2 */
+.zoom:hover figcaption,
+.zoom.cs-hover figcaption {
+  opacity: 1;
+	transform: translateY(0px);
+	transition: transform 0.4s, opacity 0.1s;
+
+}
+
 
 .cs-style-3 figcaption a {
 	position: absolute;
@@ -468,10 +525,13 @@ background-image: url("media/bathroom.jpg");
 	/* right: 20px; */
 }
 
-#centered-caption {
-
+.ourServicesRow figcaption a {
+  position: absolute;
 }
 
+figcaption {
+  overflow: hidden;
+}
 
 main .row {
   padding-top: 30px;
