@@ -479,6 +479,9 @@ overflow: hidden;
   overflow: hidden;
 }
 
+.carousel-item .active {
+  min-height: 100vh;
+}
 .cs-style-3 figcaption {
 	height: 100px;
 	width: 100%;
