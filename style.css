@@ -6,10 +6,6 @@ body {
   font-family: 'Lora', serif;
 }
 
-.fb-dialog {
-  position: static;
-  bottom: 30px;
-}
 
 h1, h2, h3, h4, h5, h6 {
  font-family: 'Montserrat', sans-serif;
@@ -737,10 +733,11 @@ span .fa-3x {
   z-index: 100;
 
   position: fixed;
-   bottom: 20px;
-   right: 20px;
-     width: 50px;
-   height: 50px;
+   bottom: 90px;
+   right: 25px;
+     width: 60px;
+   height: 60px;
+   border-radius: 50%;
    display: block;
    text-decoration: none;
    /* -webkit-border-radius: 35px;
@@ -760,13 +757,19 @@ span .fa-3x {
 
 .backToTop i {
     color: white;
-    margin: 0;
+    /* margin: 0; */
     position: relative;
-    left: 16px;
+    /* left: 16px;
     top: 13px;
-    font-size: 19px;
+    font-size: 19px; */
 
 
+}
+
+.svg-inline--fa.fa-w-14 {
+    width: 1em;
+    margin-top: 15px;
+    font-size: 30px;
 }
 
 
