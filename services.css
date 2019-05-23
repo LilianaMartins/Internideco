@@ -189,36 +189,74 @@ hr {
 
 
 /* footer */
-.footer  {
-  height: 300px;
+
+.partnerList li {
+  list-style: none;
+  display: inline-block;
+}
+
+.partnerLogo {
+  height: 40px;
+  width: auto;
+  margin: 10px;
+}
+
+
+
+
+footer  {
+  height: 20%;
   background-color: #BEBEBE;
+  color: #8a8a86;
+  padding-top: 40px;
   bottom: 0;
   padding-bottom: 0;
   margin: 0;
 }
 
+
+.footerRow {
+/* width: 50%; */
+text-align: center;
+
+}
+
+.footerRow .col {
+  margin-bottom: 20px;
+
+}
+
+.footerRow .col a {
+  color: #8a8a86;
+  cursor: pointer;
+}
+
+
 footer h3 {
-  color: white;
+  color: #8a8a86;
   text-align: center;
 }
 
  footer p {
    text-align: center;
-   color: white;
  }
 
 footer .row {
   padding: 0;
   margin-bottom: 20px;
-  text-align: center;
+    text-align: center;
 }
 
 footer .container-fluid {
   height: 100%;
 }
 
+.callIcons p {
+  text-align: left;
+}
+
 .fa-1x {
-  margin-right: 5px;
+  margin-right: 10px;
 }
 
 span .fa-3x {
@@ -226,8 +264,8 @@ span .fa-3x {
 
 }
 #Copyright {
-  background-color: #BEBEBE	;
-  color: white;
+  background-color: #d7d7d2;
+  color: #8a8a86;
   text-align: center;
   height: 30px;
 }
@@ -238,8 +276,5 @@ span .fa-3x {
 }
 
 #icons {
-  color: white;
-}
-.fab {
-  /* padding: 10px; */
+  color: #8a8a86;
 }
