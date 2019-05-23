@@ -636,7 +636,7 @@ span#contact {
 /* testimonials */
 
 #stars {
-  color: yellow;
+  color: #e6c900;
 }
 
 .row .testimonialsRow {
@@ -648,6 +648,7 @@ span#contact {
 
 #houzzBadges {
   padding-top: 5px;
+  position: static;
 }
 
 /* mobile testimonials carousel */
@@ -671,7 +672,7 @@ span#contact {
 
 footer  {
   height: 20%;
-  background-color: #e1e2dc;
+  background-color: #BEBEBE;
   color: #8a8a86;
   padding-top: 40px;
   bottom: 0;
@@ -681,10 +682,22 @@ footer  {
 
 
 .footerRow {
-width: 50%;
+/* width: 50%; */
 text-align: center;
 
 }
+
+.footerRow .col {
+  margin-bottom: 20px;
+
+}
+
+.footerRow .col a {
+  color: #8a8a86;
+  cursor: pointer;
+}
+
+
 footer h3 {
   color: #8a8a86;
   text-align: center;
