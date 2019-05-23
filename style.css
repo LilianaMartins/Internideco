@@ -230,7 +230,7 @@ margin-left: -20%;
   border-radius: 0;
 }
 
-.carousel {
+.colHeader .carousel {
   height: 100%;
   overflow: hidden;
   position: fixed;
@@ -649,6 +649,9 @@ span#contact {
 #houzzBadges {
   padding-top: 5px;
 }
+
+/* mobile testimonials carousel */
+
 
 /* footer */
 

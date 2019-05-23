@@ -115,3 +115,6 @@ js = d.createElement(s); js.id = id;
 js.src = 'https://connect.facebook.net/en_GB/sdk/xfbml.customerchat.js';
 fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));
+
+
+// mobile testimonials carousel
