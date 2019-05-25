@@ -51,22 +51,20 @@ main .container-fluid {
 @media only screen and (max-width: 700px) {
 
 
-  nav {
-    width: 100vw;
-  }
+      nav {
+        width: 100vw;
+      }
 
 
-  .nav-item {
-    background-color: white;
-    color: black!important;
+      .nav-item {
+        background-color: white;
+        color: black!important;
 
-  }
+      }
 
-.nav-link .nav-link a {
-    color: black!important;
-  }
-
-
+    .nav-link .nav-link a {
+        color: black!important;
+      }
   }
 
   .nav-link:hover {
