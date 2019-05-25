@@ -323,17 +323,17 @@ border-bottom: 30px solid white;
 } */
 
 .servicesImgContainer1 {
-  background-image: url("media/homestyling.jpg");
+  background-image: url("https://i.imgur.com/VoCs0OA.jpg");
   overflow: hidden;
 }
 
 .servicesImgContainer2 {
-  background-image: url("media/finishings.jpg");
+  background-image: url("https://i.imgur.com/m4BbLdS.jpg");
   overflow: hidden;
 }
 
 .servicesImgContainer3 {
-background-image: url("media/bathroom.jpg");
+background-image: url("https://i.imgur.com/ovTOFVF.jpg");
 overflow: hidden;
 }
 
@@ -561,7 +561,7 @@ filter: grayscale(100%);
 
 #paralax1 {
   /* background-image: url("media/livingroomteal.jpg"); */
-  background-image: url("media/paralax1.jpg");
+  background-image: url("https://i.imgur.com/BBz6MRp.jpg");
 min-height: 400px;
 
   background-attachment: fixed;
@@ -572,7 +572,7 @@ min-height: 400px;
 
 
 #paralax2 {
-  background-image: url(media/paralax3a.jpg);
+  background-image: url("https://i.imgur.com/DhYZsBU.jpg");
   min-height: 400px;
 
   background-attachment: fixed;
@@ -582,7 +582,7 @@ min-height: 400px;
 }
 
 #paralax3 {
-  background-image: url(media/actualparalax3.jpg);
+  background-image: url("https://i.imgur.com/JDL5BNR.jpg");
   min-height: 400px;
 
   background-attachment: fixed;
@@ -592,7 +592,7 @@ min-height: 400px;
 }
 
 #paralax4 {
-  background-image: url(media/8.jpg);
+  background-image: url("https://i.imgur.com/YLmxe1p.jpg");
   min-height: 400px;
 
   background-attachment: fixed;
